@@ -21,7 +21,7 @@ const events = [
   {
     title: "Wedding Ceremony",
     emoji: "🪔",
-    date: "15th February 2026",
+    date: "1st April 2026",
     time: "Muhurtham: 9:15 AM",
     venue: "Sri Kapaleeshwarar Temple, Mylapore",
     description: "The sacred union performed with Vedic rituals and blessings.",
@@ -29,7 +29,7 @@ const events = [
   {
     title: "Reception",
     emoji: "🎊",
-    date: "15th February 2026",
+    date: "1st April 2026",
     time: "7:00 PM",
     venue: "The Grand Ballroom, Taj Coromandel, Chennai",
     description: "Join us for an evening of celebration, music, and feast.",

@@ -103,7 +103,7 @@ const RSVPForm = () => {
               Send RSVP
             </button>
             <a
-              href={`https://wa.me/919876543210?text=${whatsappMessage}`}
+              href={`https://wa.me/918141721001?text=${whatsappMessage}`}
               target="_blank"
               rel="noopener noreferrer"
               className="flex-1 flex items-center justify-center gap-2 px-6 py-3 gold-border rounded-lg font-display text-gold text-sm tracking-wider uppercase hover:bg-gold/10 transition-all"

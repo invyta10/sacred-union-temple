@@ -3,10 +3,9 @@ import { motion, AnimatePresence } from "framer-motion";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import gallery1 from "@/assets/gallery-1.jpg";
 import gallery2 from "@/assets/gallery-2.jpg";
-import gallery3 from "@/assets/gallery-3.jpg";
 import coupleHero from "@/assets/couple-hero.jpg";
 
-const photos = [gallery1, gallery2, gallery3, coupleHero];
+const photos = [gallery1, gallery2, coupleHero];
 
 const PhotoGallery = () => {
   const [current, setCurrent] = useState(0);
