@@ -1,16 +1,38 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import { useState } from "react";
+import EntryScreen from "@/components/EntryScreen";
+import HeroSection from "@/components/HeroSection";
+import WeddingEvents from "@/components/WeddingEvents";
+import CountdownTimer from "@/components/CountdownTimer";
+import VenueSection from "@/components/VenueSection";
+import RSVPForm from "@/components/RSVPForm";
+import PhotoGallery from "@/components/PhotoGallery";
+import BlessingsSection from "@/components/BlessingsSection";
+import WeddingFooter from "@/components/WeddingFooter";
+import FloatingPetals from "@/components/FloatingPetals";
+import MusicToggle from "@/components/MusicToggle";
 
-// IMPORTANT: Fully REPLACE this with your own code
-const PlaceholderIndex = () => {
-  // PLACEHOLDER: Replace this entire return statement with the user's app.
-  // The inline background color is intentionally not part of the design system.
+const Index = () => {
+  const [entered, setEntered] = useState(false);
+
   return (
-    <div className="flex min-h-screen items-center justify-center" style={{ backgroundColor: '#fcfbf8' }}>
-      <img data-lovable-blank-page-placeholder="REMOVE_THIS" src="/placeholder.svg" alt="Your app will live here!" />
-    </div>
+    <>
+      {!entered && <EntryScreen onEnter={() => setEntered(true)} />}
+      {entered && (
+        <div className="relative">
+          <FloatingPetals />
+          <MusicToggle />
+          <HeroSection />
+          <WeddingEvents />
+          <CountdownTimer />
+          <VenueSection />
+          <PhotoGallery />
+          <RSVPForm />
+          <BlessingsSection />
+          <WeddingFooter />
+        </div>
+      )}
+    </>
   );
 };
-
-const Index = PlaceholderIndex;
 
 export default Index;
