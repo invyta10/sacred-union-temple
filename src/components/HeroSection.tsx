@@ -86,7 +86,7 @@ const HeroSection = () => {
           viewport={{ once: true }}
           transition={{ delay: 0.9 }}
         >
-          Saturday,  1st April 2026
+          Saturday,  1st April 2027
         </motion.p>
       </div>
     </section>

@@ -5,7 +5,7 @@ const events = [
   {
     title: "Haldi Ceremony",
     emoji: "🌼",
-    date: "13th February 2026",
+    date: "13th February 2027",
     time: "10:00 AM",
     venue: "Bride's Residence, Chennai",
     description: "An auspicious ceremony to bless the bride and groom with turmeric.",
@@ -13,7 +13,7 @@ const events = [
   {
     title: "Mehendi",
     emoji: "🌿",
-    date: "13th February 2026",
+    date: "13th February 2027",
     time: "4:00 PM",
     venue: "Bride's Residence, Chennai",
     description: "An evening of art, music, and beautiful henna designs.",
@@ -21,7 +21,7 @@ const events = [
   {
     title: "Wedding Ceremony",
     emoji: "🪔",
-    date: "1st April 2026",
+    date: "1st April 2027",
     time: "Muhurtham: 9:15 AM",
     venue: "Sri Kapaleeshwarar Temple, Mylapore",
     description: "The sacred union performed with Vedic rituals and blessings.",
@@ -29,7 +29,7 @@ const events = [
   {
     title: "Reception",
     emoji: "🎊",
-    date: "1st April 2026",
+    date: "1st April 2027",
     time: "7:00 PM",
     venue: "The Grand Ballroom, Taj Coromandel, Chennai",
     description: "Join us for an evening of celebration, music, and feast.",

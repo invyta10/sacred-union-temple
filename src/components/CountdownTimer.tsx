@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 
-const WEDDING_DATE = new Date("2026-04-01T09:15:00+05:30").getTime();
+const WEDDING_DATE = new Date("2027-04-01T09:15:00+05:30").getTime();
 
 const CountdownTimer = () => {
   const [timeLeft, setTimeLeft] = useState(calculateTime());
@@ -39,7 +39,7 @@ const CountdownTimer = () => {
         >
           <p className="text-gold-light text-sm tracking-[0.3em] uppercase mb-2 font-body">Counting Down To</p>
           <h2 className="font-display text-gold text-3xl md:text-4xl mb-2">The Muhurtham</h2>
-          <p className="text-gold-light/70 font-body mb-10">1st April 2026 • 9:15 AM IST</p>
+          <p className="text-gold-light/70 font-body mb-10">1st April 2027 • 9:15 AM IST</p>
         </motion.div>
 
         <div className="flex justify-center gap-4 md:gap-8">
